@@ -1,0 +1,19 @@
+
+#grid-comic{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+}
+#grid-comic img{
+    width: 100%;
+}
+#grid-comic div{
+    background-color:#ccc ;
+}
+#grid-title{
+    grid-column: 1 / span 4;
+    grid-row: 1;
+    text-align: center;
+}
